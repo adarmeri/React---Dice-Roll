@@ -1,0 +1,225 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+body{
+ background-color:rgb(69, 166, 193);
+
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.imgcenter {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 46.9%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.imgcenter1 {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 46.9%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.totalScore1{
+  margin:0;
+  position: absolute;
+  left: 58%;
+  top:12%;
+}
+.totalScore2{
+  margin:0;
+  position: absolute;
+  left: 30%;
+  top:12%;
+}
+
+
+.newGame{
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 46.9%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  background-color:#3f51b5;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: 0;
+  text-transform: uppercase;
+  
+  cursor: pointer;
+  box-shadow: 0px 2px 2px lightgray;
+  transition: ease background-color 250ms;
+}
+.rollDice{
+  margin: 0;
+  position: absolute;
+  top: 52%;
+  left: 46.9%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  background-color:#3f51b5;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: 0;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  box-shadow: 0px 2px 2px lightgray;
+  transition: ease background-color 250ms;
+}
+.rollDice1{
+  margin: 0;
+  position: absolute;
+  top: 52%;
+  left: 46.9%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  background-color:#3f51b5;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: 0;
+  text-transform: uppercase;
+  opacity: 0.7;
+
+  cursor: pointer;
+  box-shadow: 0px 2px 2px lightgray;
+  transition: ease background-color 250ms;
+}
+.hold{
+  margin: 0;
+  position: absolute;
+  top: 58%;
+  left: 46.9%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+
+  background-color:#3f51b5;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: 0;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  box-shadow: 0px 2px 2px lightgray;
+  transition: ease background-color 250ms;
+}
+
+.hold1{
+  margin: 0;
+  position: absolute;
+  top: 58%;
+  left: 46.9%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+
+  background-color:#3f51b5;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: 0;
+  text-transform: uppercase;
+  opacity: 0.7;
+
+  cursor: pointer;
+  box-shadow: 0px 2px 2px lightgray;
+  transition: ease background-color 250ms;
+}
+
+.rollDice:hover{
+  background-color:#283593;
+}
+
+.hold:hover{
+  background-color:#283593;
+}
+
+.newGame:hover{
+  background-color:#283593;
+}
+
+.img61{
+  margin: 0;
+  position: absolute;
+  top: 58%;
+  left: 30.9%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.img62{
+  margin: 0;
+  position: absolute;
+  top: 58%;
+  left: 62.9%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.onMode{
+  background-color:#3f51b5;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: 0;
+
+}
+.offMode{
+  background-color:#bb3b3b;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: 0;
+}
